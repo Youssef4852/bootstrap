@@ -1,0 +1,37 @@
+body {
+  padding-top: 74.48px;
+}
+header {
+  z-index: 99999;
+  position: fixed;
+}
+nav ul li:hover {
+  color: var(--main-color);
+}
+.home>.container {
+  min-height: calc(100vh - 74px);
+}
+.home .text,.home .image{
+  flex-basis: 45%;
+}
+.home .text h1 {
+  font-size: 3rem;
+}
+.about .container {
+  margin-top: 80px;
+}
+.about .social i,footer .icons i {
+  width: 35px;height: 35px;
+  cursor: pointer;
+}
+.contact form textarea {
+  height: 150px;
+  resize: none;
+}
+.contact .form-check input {
+  accent-color: var(--main-color);
+}
+footer p span{
+  color: #9035f1;
+  cursor: pointer;
+}

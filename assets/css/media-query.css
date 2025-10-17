@@ -1,0 +1,28 @@
+@media (max-width: 1199px) {
+  .home .text h1 {
+    font-size: 3rem;
+  }
+  .home .text p {
+    font-size: 1.1rem !important;
+  }
+}
+@media (max-width: 991px) {
+    .home .text, .home .image,.about .text,.about .image {
+        flex-basis: 100% !important;
+        width: 100% !important;
+    }
+}
+@media (max-width: 767px) {
+  .home .text h1 {
+    font-size: 3.5rem;
+  }
+}
+@keyframes imgAnimated {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
